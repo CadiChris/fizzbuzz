@@ -1,0 +1,25 @@
+{
+  "name": "fizzbuzz",
+  "version": "1.0.0",
+  "description": "FizzBuzz kata",
+  "main": "index.js",
+  "repository": "https://github.com/cadichris/fizzbuzz.git",
+  "author": "Christophe Cadilhac <christophe.cadilhac@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "chai": "^4.1.0",
+    "mocha": "^3.4.2"
+  },
+  "scripts": {
+    "test": "mocha --compilers js:babel-register --watch *test.js"
+  },
+  "devDependencies": {
+    "babel-preset-env": "^1.6.0",
+    "babel-register": "^6.24.1"
+  },
+  "babel": {
+    "presets": [
+      "env"
+    ]
+  }
+}
